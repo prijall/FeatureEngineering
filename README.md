@@ -20,4 +20,4 @@
 ## Feature Extaction
    It helps to reduce the no of independent variables and makes our machine learning model more efficient.
    
- ![F_Engineering](<Screenshot (85).png>)
+![photo](F_Engineering.png)
