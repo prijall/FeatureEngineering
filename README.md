@@ -21,3 +21,14 @@
    It helps to reduce the no of independent variables and makes our machine learning model more efficient.
    
 ![photo](F_Engineering.png)
+
+
+# Day 2
+  There are basically two types of feature scaling and they are: **Standardization** and **Normalization** .Today, I learned the concept of Standardization in feature scaling which is very important in machine learning. Standardization is the process of standardizing the values so that they wont create imbalance and biased dataset during development of machine learning models. This is also very important to those algorithms which uses Euclidean distance. Standardization is also called **Z-Score Normalization**.
+   The formula that is used to get Standardization is Actual value subtracted to Mean value which is divided by Standard Deviation i.e.
+  
+   - Standardization = (Actual Value)- (Mean Value)/(Standard Deviation)
+
+   ![Code Photo](Standardization_code_png.png) 
+   
+   ![Graph Photo](StandardizedGraph.png)
