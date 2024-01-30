@@ -31,4 +31,4 @@
 
    ![Code Photo](Standardization_code_png.png) 
    
-   ![Graph Photo](StandardizedGraph.png)
+   ![Graph Photo](StandardizedGraph-1.png)
