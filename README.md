@@ -53,7 +53,7 @@
 
     It is generally mean centering like that of Standaradization.
 
-    **Note:** Since, All other types aren't used as MInMax Scaling, I just focused on MinMaxScaler in practical Implementation. I will assure to do other in coming future.
+    **Note:** Since, All other types aren't used as MInMax Scaling, I just focused on MinMaxScaler in practical Implementation. I will assure to do other in forthcoming future.
 
 ![code photo](Code_Snippet.png) 
 
