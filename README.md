@@ -32,3 +32,29 @@
    ![Code Photo](Standardization_code_png.png) 
    
    ![Graph Photo](StandardizedGraph-1.png)
+
+
+# Day 3
+  After learning the basic concpets of Standaradization, today i studied about Normalization in feature scaling. **Normalization** is a technique often applied with goal to change the values of numeric columns in the dataste to use a common scale, without distorting differences in the ranges of values or losing informations.There are various types of Normalization, they are;
+  - MinMax Scaling
+  - Mean Normalization
+  - Max Absolute 
+  - Robust Scaling
+
+  ## MinMax Scaling 
+     The formula for MinMax Scaling is:
+         X'= (X-Xmin)/(Xmax-Xmin)
+         
+      The range of new distribution will be in [0, 1]. In 2D graph, it means squashing all the datas into unit square and In 3D graph, it is cubic.
+
+  ## Mean Normalization
+   The formula of Mean Normalization is:
+     X'= (X-Xmean)/(Xmax-Xmin)
+
+    It is generally mean centering like that of Standaradization.
+
+    **Note:** Since, All other types aren't used as MInMax Scaling, I just focused on MinMaxScaler in practical Implementation. I will assure to do other in coming future.
+
+![code photo](Code_Snippet.png) 
+
+![visual](MinMax_Matplot.png) ![Visual](MinMax_Seaborn.png)
