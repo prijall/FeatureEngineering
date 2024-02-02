@@ -58,3 +58,17 @@
 ![code photo](Code_Snippet.png) 
 
 ![visual](MinMax_Matplot.png) ![Visual](MinMax_Seaborn.png)
+
+# Day 4
+Today, I learned the concept of Encoding which is widely used in categorical variables in classofication. We convert alphabetic value to numeric values in machine learning which helps model to perform better. There are Two kinds of Encoding, they are:
+- Nominal Encoding
+- Ordinal Encoding
+ Today , I studied about Ordinal Encoding only. 
+ ## Oridnal Encoding 
+Ordinal Encoding are those encoding in which there is order in the different categorical values.
+For example: If there are three categorizes i.e. 'Poor', 'Average' and 'Excellent' in grading system then the intuition is that "Excellent > Average > Poor". 
+In this case, we will be using Ordinal Encoding.
+**Note:** We can assign values in order in Ordinal Encoding i.e. {'Poor': 0, 'Average':1, 'Excellent':2}
+
+![Code Photo](OrdinalEncodingPhoto-2-1-1.png)
+![Result](NumericValue.png)
