@@ -60,7 +60,7 @@
 ![visual](MinMax_Matplot.png) ![Visual](MinMax_Seaborn.png)
 
 # Day 4
-Today, I learned the concept of Encoding which is widely used in categorical variables in classofication. We convert alphabetic value to numeric values in machine learning which helps model to perform better. There are Two kinds of Encoding, they are:
+Today, I learned the concept of Encoding which is widely used in categorical variables in classification. We convert alphabetic value to numeric values in machine learning which helps model to perform better. There are Two kinds of Encoding, they are:
 - Nominal Encoding
 - Ordinal Encoding
  Today , I studied about Ordinal Encoding only. 
@@ -77,7 +77,7 @@ In this case, we will be using Ordinal Encoding.
 Today, I deep dive into the concept of One Hot Encoding which is very useful in machine learning. One Hot Encoding is used in Nominal dataset i.e. those dataset that has no order. For example; If we have 4 columns of colors that are Red, Blue, Green and Black then we use One Hot Encoding in this dataset as there is no order to any color. 
 
 ### Concept of Dummy Variable Trap
- When we do OneHotEncoding, we divide categories into different columns. But when all the columns are formed, we remove one column i.e if there are 'n' columns after categorical division then er make it 'n-1' to avoid **MultiColinearity**. 
+ When we do OneHotEncoding, we divide categories into different columns. But when all the columns are formed, we remove one column i.e if there are **'n'** columns after categorical division then er make it **'n-1'** to avoid **MultiColinearity**. 
 
 ### OHE using Frequent Variables
 When Separating categories, there may be as many columns due to which it becomes difficult to handle and manage data due to which this concept is introduce that if we have many categories then we will make columns of only those which have more frequency and we make common columns for rest of the categories which makes our data more clean. The assumption here is that the categories in common column should be in less frequency.
