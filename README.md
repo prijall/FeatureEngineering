@@ -83,3 +83,12 @@ Today, I deep dive into the concept of One Hot Encoding which is very useful in 
 When Separating categories, there may be as many columns due to which it becomes difficult to handle and manage data due to which this concept is introduce that if we have many categories then we will make columns of only those which have more frequency and we make common columns for rest of the categories which makes our data more clean. The assumption here is that the categories in common column should be in less frequency.
 
 ![code](OHE_photo.png)
+
+# Day 6
+Scikit learn is very useful tools for machine learning and feature engineering. Today, I learnt the concept of **Column Transfer** in feature engineering. This is one of the gamechanging function in sklearn library.
+
+## Column Transformer
+  It is a function in sklearn library where we can do various tranform of our data column within a few lines of code. For a traditional method, first we need to separate the columns and then perform  feature engineering and again concatenate them using numpy function. But this is not the case with column transformer. If we know this function then life at work will be easy. **This function allows us to do required feature engineering work without having coulmns being separated and concatenated.** 
+  - For example: If a dataset has one **Missing value** column, and all others categorical values columns which needs to be feature scaled then say for two columns we need to do **Ordinal Encoding** and for rest we need to apply **One Hot Encoding** then we can so by using **Column Transformer**.
+
+![code](Columntransfer_photo.png)
