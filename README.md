@@ -92,3 +92,18 @@ Scikit learn is very useful tools for machine learning and feature engineering. 
   - For example: If a dataset has one **Missing value** column, and all others categorical values columns which needs to be feature scaled then say for two columns we need to do **Ordinal Encoding** and for rest we need to apply **One Hot Encoding** then we can so by using **Column Transformer**.
 
 ![code](Columntransfer_photo.png)
+
+# Day 7
+Today, I understand the Concept of Pipelining in Machine Learning. Pipelines play vital role in deployment of Machine learning algorithm. Today, I saw the difference between the development of machine learning model with the help pipeline and without it as well. I didn't perform any coding activities as there are many concepts to be known before the deployment of the model.
+   There are few steps in pipeline:
+
+  - Data Collection
+  - Data Preprocessing
+     - feature transformation
+     - feature scaling
+     - feature engineering, in general
+
+  - Model development
+  - Deployment 
+
+  ![photo](https://imgs.search.brave.com/c9aLRTk9sYzMInUCz7Fkcqz9jjs51QptA_ewl0Tfq34/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vbmVwdHVu/ZS5haS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNS9ob3ct/dG8tYnVpbGQtYW4t/ZW5kLXRvLWVuZC1t/bC1wbGF0Zm9ybS0y/LnBuZz9yZXNpemU9/MTIwMCw2Mjgmc3Ns/PTE)
