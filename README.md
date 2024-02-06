@@ -107,3 +107,8 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
   - Deployment 
 
   ![photo](https://imgs.search.brave.com/c9aLRTk9sYzMInUCz7Fkcqz9jjs51QptA_ewl0Tfq34/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vbmVwdHVu/ZS5haS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMy8wNS9ob3ct/dG8tYnVpbGQtYW4t/ZW5kLXRvLWVuZC1t/bC1wbGF0Zm9ybS0y/LnBuZz9yZXNpemU9/MTIwMCw2Mjgmc3Ns/PTE)
+
+
+  # Day 8
+  Today, I deep dive into the concept of functional transformation. Functional transformation is used specially in linear model where the dataset has to be in normal distribution so as to get correct accuracy.
+  **Note:** I didn't understand the practical implementation as my accuracy wasn't improved, I will look at this topic at the end of feature engineering.
