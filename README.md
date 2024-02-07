@@ -112,3 +112,22 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
   # Day 8
   Today, I deep dive into the concept of functional transformation. Functional transformation is used specially in linear model where the dataset has to be in normal distribution so as to get correct accuracy.
   **Note:** I didn't understand the practical implementation as my accuracy wasn't improved, I will look at this topic at the end of feature engineering.
+
+
+# Day 9
+  
+  Moving on further, Today I learnt the concept of **Discretization** which is used in feature engineering. Discretization is the process of transforming continuous variables into discrete varibles by creating a set of contagious interval that spans the range of the variable's values.
+    Discretization is called binning.
+
+## Why use discretization
+- To handle Outliers
+- To improve the value of spread.
+
+## Types of Discretization
+
+- Equal Width/Uniform Binning
+- Quantile Binning
+- KMeans Binning
+
+   ![photo](Des_1.png) ![photo](Des_2.png)
+
