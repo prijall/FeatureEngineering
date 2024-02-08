@@ -131,3 +131,10 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
 
    ![photo](Des_1.png) ![photo](Des_2.png)
 
+# Day 10
+
+  Today, I deep dive into the concept of mixed values handling. Our dataset will be having both numeric and categorical values in single column or in single cell as a matter of fact. So, we need to separate the values in order to make our dataset more efficient for model to perform better. This is where we need to make separate columns and it can be achieved through pandas and numpy of python libraries.
+
+![photo](MixedValuedDataset.png) ![Photo](SeparatedValuedTable.png)
+
+
