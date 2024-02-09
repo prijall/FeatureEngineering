@@ -141,4 +141,13 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
 ### After Feature Engineering
 ![Photo](SeparatedValuedTable.png)
 
+# Day 11
+ Today, I learnt the concept of 'Date' and 'Time' handling in feature engineering. In CSV format, both date and time are of string datatype, we need to convert that into datetime datatype to handle that value using pandas libraries.
+
+ - Before handling
+ ![Photo 1](FinalHandling.png)
+
+ - After Handling
+ ![Photo 2](Date.png)  ![Photo 3](TIme.png)
+
 
