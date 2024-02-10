@@ -150,4 +150,18 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
  - After Handling
  ![Photo 2](Date.png)  ![Photo 3](TIme.png)
 
+ # Day 12
+ Today, I learnt the concept of missing values handling in feature engineering. Sklearn library is not developed enough to handle missing values by itself, so we need to handle them using various other techniques. With incomplete data, our model cannot perform well.
+
+ ## Complete Case Analysis(CCA)
+   This is one of the method of handling missing values in sklearn. In this method, we remove the rows where values in any of the column are missing.
+
+## Assumption for CCA
+- Data is missing completely at random(MCAR).
+
+## When to use CCA
+- Data should be MCAR.
+- If data is in MCAR, then missing values should be less than 5%.
+
+
 
