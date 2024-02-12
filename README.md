@@ -164,4 +164,12 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
 - If data is in MCAR, then missing values should be less than 5%.
 
 
+# Day 13
+Today, I learnt about handling missing numerical values using both pandas and sklearn library.It also called Univariate handling as the missing values is calculated only from the same column with various techniques. I used imputer from sklearn whereas fillna from pandas. Today, I learnt two ways of handling numerical values:
 
+- Mean/Median Imputation 
+   In this method, we replace missing values with mean and median of the same column. This is only done when the data is at MCAR and has less than 5% missing values in the total dataset.
+
+- Arbitrary Value Imputation
+  In this kind, instead of filling missing values with mean/median, we replace them by random arbitrary values, but it becomes hard to handle outliers and manage proper distribution.
+  ![Photo](mean_median_values.png)
