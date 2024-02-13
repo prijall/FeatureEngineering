@@ -173,3 +173,10 @@ Today, I learnt about handling missing numerical values using both pandas and sk
 - Arbitrary Value Imputation
   In this kind, instead of filling missing values with mean/median, we replace them by random arbitrary values, but it becomes hard to handle outliers and manage proper distribution.
   ![Photo](mean_median_values.png)
+
+  # Day 14
+   Continued learning on handling missing values on categorical data today. There are mainly two ways to do so, they are 
+   - By replacing with most frequency i.e mode
+   - By replacing with 'missing' 
+
+     I practiced this concept using both pandas and sklearn libraries. Below is the code snippet:
