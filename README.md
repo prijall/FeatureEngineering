@@ -180,3 +180,4 @@ Today, I learnt about handling missing numerical values using both pandas and sk
    - By replacing with 'missing' 
 
      I practiced this concept using both pandas and sklearn libraries. Below is the code snippet:
+     ![photo](missingValuesAhndling_1.png)![photo](missingValuesAhndling_2.png)![photo](missingValuesAhndling_3.png)
