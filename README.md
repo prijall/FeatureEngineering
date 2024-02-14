@@ -181,3 +181,8 @@ Today, I learnt about handling missing numerical values using both pandas and sk
 
      I practiced this concept using both pandas and sklearn libraries. Below is the code snippet:
      ![photo](missingValuesAhndling_1.png)![photo](missingValuesAhndling_2.png)![photo](missingValuesAhndling_3.png)
+
+
+# Day 15
+  Today, I understood the concept of Random Sample Imputation which is also kind of univariate handling. This help is used in both the numerical and categorical dataset. It uses all the data from the column itself due to which normal distibution is maintained after the imputation as well.
+![Photo](RandomSample.png)
