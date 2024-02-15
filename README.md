@@ -186,3 +186,8 @@ Today, I learnt about handling missing numerical values using both pandas and sk
 # Day 15
   Today, I understood the concept of Random Sample Imputation which is also kind of univariate handling. This help is used in both the numerical and categorical dataset. It uses all the data from the column itself due to which normal distibution is maintained after the imputation as well.
 ![Photo](RandomSample.png)
+
+
+# Day 16
+  Today was very tough for me to get to end for finalising the best parameters for Imputation. I also learnt the concept of Missing Imputation. This is the concept where we create another column specifing 'true' and 'false' due to which our model can predict better. But, today i was mainly focused towards selection of best params. Below is the code snippet:
+  ![Photo](PipelineForImputation.png)![Photo](SelcetionForImputer.png)
