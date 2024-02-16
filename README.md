@@ -191,3 +191,22 @@ Today, I learnt about handling missing numerical values using both pandas and sk
 # Day 16
   Today was very tough for me to get to end for finalising the best parameters for Imputation. I also learnt the concept of Missing Imputation. This is the concept where we create another column specifing 'true' and 'false' due to which our model can predict better. But, today i was mainly focused towards selection of best params. Below is the code snippet:
   ![Photo](PipelineForImputation.png)![Photo](SelcetionForImputer.png)
+
+# Day 17
+Today, I deep dive into the concept of missing value handling using multivariate techniques. **KNN Imputation** is the techniques in handling missing values using Euclidean Distance between the k-Nearest Neighbour.
+
+- Formula to calculate Euclidean Distance is:
+    Distance=sqrt(weight*Sq(Xm-Xn)+sq(Ym-Yn)+..)
+                Where, Weight=(No of Coordinates)/(No. of present coordinates)
+
+ There is a key role of uniform and distance in KNN Imputation i.e. 
+
+- Uniform: It is the mean of the Value of Nearest Neighbour i.e 
+
+       Uniform = (Value of Kn neighbour)/(total number of neigbour) 
+
+- Distance: It is the mean obtained by multiplying the value of Nearest Neighbour by reciprocal of their respective distance i.e.
+
+      Distance= 1/(Euclidean distance of 'n' Neighbour)*(Value of Kn neighbour)/(total number of neigbour) 
+
+![Photo](KNNImputer.png)
