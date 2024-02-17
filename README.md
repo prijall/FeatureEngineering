@@ -165,7 +165,7 @@ Today, I understand the Concept of Pipelining in Machine Learning. Pipelines pla
 
 
 # Day 13
-Today, I learnt about handling missing numerical values using both pandas and sklearn library.It also called Univariate handling as the missing values is calculated only from the same column with various techniques. I used imputer from sklearn whereas fillna from pandas. Today, I learnt two ways of handling numerical values:
+Today, I learnt about handling missing numerical values using both pandas and sklearn library.It also called Univariate Imputation as the missing values is calculated only from the same column with various techniques. I used imputer from sklearn whereas fillna from pandas. Today, I learnt two ways of handling numerical values:
 
 - Mean/Median Imputation 
    In this method, we replace missing values with mean and median of the same column. This is only done when the data is at MCAR and has less than 5% missing values in the total dataset.
@@ -193,7 +193,7 @@ Today, I learnt about handling missing numerical values using both pandas and sk
   ![Photo](PipelineForImputation.png)![Photo](SelcetionForImputer.png)
 
 # Day 17
-Today, I deep dive into the concept of missing value handling using multivariate techniques. **KNN Imputation** is the techniques in handling missing values using Euclidean Distance between the k-Nearest Neighbour.
+Today, I deep dive into the concept of missing value handling using multivariate Imputaion. **KNN Imputation** is the techniques in handling missing values using Euclidean Distance between the k-Nearest Neighbour.
 
 - Formula to calculate Euclidean Distance is:
     Distance=sqrt(weight*Sq(Xm-Xn)+sq(Ym-Yn)+..)
@@ -210,3 +210,11 @@ Today, I deep dive into the concept of missing value handling using multivariate
       Distance= 1/(Euclidean distance of 'n' Neighbour)*(Value of Kn neighbour)/(total number of neigbour) 
 
 ![Photo](KNNImputer.png)
+
+# Day 18
+Today, I just looked up into the concept of Iterative Imputation. This is one of the accurate techniques for handling Missing values. In this Imputation,
+- Step 1: we first fill all the missing value with mean value
+- Step 2: we remove imputed mean value from one column of the table and make it as o/p while other columns remains as input. 
+- Step 3: We then apply any of the suitable ML algorithm and get value in that column and we repeat this step 2 and this step for all other columns
+- Step 4: Subtract Step 2 from Step 3 untill the imputed values must be 0 or near to zero 
+- Step 5: Iterate untill the value is close enough to the values of step 1
