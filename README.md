@@ -217,4 +217,29 @@ Today, I just looked up into the concept of Iterative Imputation. This is one of
 - Step 2: we remove imputed mean value from one column of the table and make it as o/p while other columns remains as input. 
 - Step 3: We then apply any of the suitable ML algorithm and get value in that column and we repeat this step 2 and this step for all other columns
 - Step 4: Subtract Step 2 from Step 3 untill the imputed values must be 0 or near to zero 
-- Step 5: Iterate untill the value is close enough to the values of step 1
+- Step 5: Iterate untill the value is close enough to the values of step 1.
+
+# Day 19
+ 
+ - Outliers:
+  It is an observation in a given dataset that lies far from the rest of the observations which are generally of average.
+
+ - When is outlier dangerous?
+   It is dangerous especially where it creates huge difference in model tuning due to which the predictibility of our model will be less.
+
+ - How to treat outliers?
+    There are two important methods;
+    **Trimming**
+    **Capping**
+    **Missing values and Discretization**
+
+  - Techniques for outlier Detection and removal
+    
+    **Z Score treatment**
+    **IQR based filtering**
+    **Percentile**
+    **Winsorization**
+
+  
+
+![photo](outlier.webp)
