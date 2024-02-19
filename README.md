@@ -240,6 +240,20 @@ Today, I just looked up into the concept of Iterative Imputation. This is one of
     **Percentile**
     **Winsorization**
 
-  
 
 ![photo](outlier.webp)
+
+# Day 20
+ 
+ Today, I learnt to detect and handle outlier for dataset which are in normal distribution. It is called Z Score method.
+ Using Normal distribution, we detect outliers and handled them using two different techniques, they are;
+
+ - Trimming:
+  In this technique, we remove the outliers from the dataset. The main disadvantage of this method shows up when there are large outliers in datasets.
+
+  - Capping
+  Though this technique works best for normal distributionm, it is very effective. We convert all the outliers to Upper limit and lower limit resp.
+  
+  - Example for code:
+  Upper_limit=df['cgpa'].mean() + 3*df['cgpa'].std()
+  Lower_limit=df['cgpa'].mean() - 3*df['cgpa'].std()
