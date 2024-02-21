@@ -257,3 +257,34 @@ Today, I just looked up into the concept of Iterative Imputation. This is one of
   - Example for code:
   Upper_limit=df['cgpa'].mean() + 3*df['cgpa'].std()
   Lower_limit=df['cgpa'].mean() - 3*df['cgpa'].std()
+  
+# Day 21
+ Today, I finished all the concept of outliers detection and handling. Today, I completed;
+
+ ## IQR Techniques
+   
+   IQR stands for InterQuartile Range. In this method, take upper limit and lower limit. for detection of outlier, we would assume all the dataset above upper and lower limit to be outliers. The formula for upper limit and lower limit are:
+
+   - upper_limit=percentile75 + 1.5 * IQR
+   - lower_limit=percentile25-1.5 * IQR
+
+  #### They are handled using;
+    - Trimming
+    - Capping
+
+## Winsorization
+ 
+Winsorization is done when the outliers are handled and detected using percentile. During setting of the upper limit and lower limit while using percentile, 
+we have to use equal weights. 
+
+- upper_limit=df['Height'].quantile(0.98)
+
+- lower_limit=df['Height'].quantile(0.02)
+
+ In the above code, upper limit is taken 98 percentile so we have to declare lower limit to 2 percentile which is exact weightage.
+
+#### They are handling using
+- Trimming
+- Winsorzation: It is same as capping but when capping we set values of outliers for upper_limit - 1 and for lower_limit + 1 but it is not nescessary to do, we can simply do capping only or use any value like 2,3 and so on.
+
+![Photo](IQR-Method-and-Outlier-Thresholds.webp)![photo](winsorized.webp)
