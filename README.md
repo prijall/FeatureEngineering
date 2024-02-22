@@ -288,3 +288,12 @@ we have to use equal weights.
 - Winsorzation: It is same as capping but when capping we set values of outliers for upper_limit - 1 and for lower_limit + 1 but it is not nescessary to do, we can simply do capping only or use any value like 2,3 and so on.
 
 ![Photo](IQR-Method-and-Outlier-Thresholds.webp)![photo](winsorized.webp)
+
+# Day 22
+Today, I learnt the concept of Feature Construction. Sometimes we have to use our domain knowledge to do construction of feature so as to improve the accuracy of our model. Below is the code snippet;
+
+- Before Feature Construction
+![alt text](BeforeFeatureCons.png)
+
+- After Feature Construction
+![alt text](AfterFeatureCons.png)
