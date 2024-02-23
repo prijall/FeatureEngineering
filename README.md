@@ -297,3 +297,11 @@ Today, I learnt the concept of Feature Construction. Sometimes we have to use ou
 
 - After Feature Construction
 ![alt text](AfterFeatureCons.png)
+
+# Day 23
+Today, I get to know about the concept of Curse of Dimensonality. It states that sometimes having more freature i.e. Dimensions in the dataset is not good for machine learning model due to which our prediction is not good. After this was understood, the term COD was coined. Now the way to handle curse on dimensinality are;
+
+- Feature Scaling
+- Feature Extraction
+And this is where the PCA i.e Principle Component Analysis comes into play.
+![alt text](curseofdimensionality.webp)
