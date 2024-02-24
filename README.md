@@ -305,3 +305,14 @@ Today, I get to know about the concept of Curse of Dimensonality. It states that
 - Feature Extraction
 And this is where the PCA i.e Principle Component Analysis comes into play.
 ![alt text](curseofdimensionality.webp)
+
+# Day 24
+**PCA** stands for Principle Component Analysis. It is used to solve Curse of Dimensionality. It is the technique of feature extraction.
+
+#### Geometric Intuition
+
+If there are more features which are equally important in predicting outcomes but we have to do reduction then we compare their variance and determine which one to use. Sometimes we have to rotate axis if both the features are equally imp and check their variance.
+
+- Role of Variance in PCA
+ During PCA, our main aim is to find maximum variance in projected unit vector. Variance determines the deviation from mean value.
+ ![alt text](Finding-Projection-in-PCA.webp)
