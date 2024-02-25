@@ -320,4 +320,5 @@ If there are more features which are equally important in predicting outcomes bu
 
  # Day 25 
   Today's experince of learning PCA was wholesome. I did coding on dimension reductionality from 3D to 2D using PCA. It was interesting to know about Co-variance, Eigen Value, Eigen Vector, etc. Below is the code snippet:
-  ![alt text](PCA_3D.png) ![alt text](PCA_2D.png)
+  ![photo](PCA_3D.png) 
+  ![photo](PCA_2D.png)
