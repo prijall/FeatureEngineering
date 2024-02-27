@@ -322,3 +322,16 @@ If there are more features which are equally important in predicting outcomes bu
   Today's experince of learning PCA was wholesome. I did coding on dimension reductionality from 3D to 2D using PCA. It was interesting to know about Co-variance, Eigen Value, Eigen Vector, etc. Below is the code snippet:
   ![photo](PCA_3D.png) 
   ![photo](PCA_2D.png)
+
+  # Day 26
+  Today, I completed the full concept of PCA i.e. Principle Component Analysis. I got to saw the code of MNIST dataset through CampusX video. Now, the main question is how to select optimum Principle Component? The right ans is we have to select pc's untill their value represents 90% variance of original dataset.
+
+  - To calculate how much one component varies from original dataset, the formula is:
+
+  % of pc1 = (pc1/sum of all pc's) * 100
+
+  #### When doesn't PCA work?
+  - If the dataset is circular and has center around origin 
+  - If dataset is spread like object and its mirror
+  - for sine, cosine curve,etc.
+  ![ss](PCA_NOT_WORKING.png)
