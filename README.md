@@ -335,3 +335,24 @@ If there are more features which are equally important in predicting outcomes bu
   - If dataset is spread like object and its mirror
   - for sine, cosine curve,etc.
   ![ss](PCA_NOT_WORKING.png)
+
+
+# Day 27 
+ Today, I relearned the concept of **Standardization** and **Normalization**. Going through the cocepts back again was very useful.
+
+ ### Standardization
+ - It is used to standardized values of dataset i.e if we have data one of Age and another of Salary then while predicting, Salary will dominate our model and the result would be unfair. This happens only when we need to calculate Euclidean Distance as the formula is:
+   Euclidean Distance = sqrt((Xm-Xn)^2 + (Ym-Yn)^2)
+ - Now for standardization, for each data we calculate standard point with help of the formula;
+    X'=(X-Xmean)/Standard Deviation
+
+- After Standardization, our dataset will have mean zero due to which this process is called mean centering and Standard Deviation is nearly equals to 1.
+
+### Normalization
+- This looks similarr to that of Standardizatoin but they aren't same actually.
+- Normalization is used to change the numeric value of a column to make a common scale without distorting differences in the ranges of values or losing any information.
+- Mostly used Normalization technique is MinMaxScaler but other than that Robust Scaling is also used which is best for dataset with outliers.
+- Formula for MinMaxScaling is
+    X'=(X-Xmin)/(Xmax-Xmin)
+- The value for MinMax ranges from [0, 1]
+![photo](1_zdQR99ScvPrMdthQ-bKvRQ.webp)
