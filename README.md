@@ -356,3 +356,10 @@ If there are more features which are equally important in predicting outcomes bu
     X'=(X-Xmin)/(Xmax-Xmin)
 - The value for MinMax ranges from [0, 1]
 ![photo](1_zdQR99ScvPrMdthQ-bKvRQ.webp)
+
+
+# Day 28 
+- Today, On relearning to handling missing handling values, I revise the concept MCAR i.e Missing Completely at Random. This is the concept that confirms that we should remove missing dataset if they are missing randomly. Similary, It is advised to do removing if missing values are less than 5%. If we have 95% or above missing value in column then we can remove them.
+
+- The best Idea to handle missing value is by fill it with various techniques because once we deploy our model then if our get missing values then it will give bad prediction as it will no be train to handle missing values due to removal of missing values.
+![photo](<28229missing_values_guide.drawio (1).drawio.webp>)
